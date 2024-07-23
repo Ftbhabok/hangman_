@@ -27,7 +27,24 @@ hangman_art = {0: ("  ",
                    " /  "), 
                6: ("  o ",
                    " /|\\ ",
-                   "  /  ") }
+                   " / \\ ") }
 
-for line in hangman_art[0]:
-  print(line)
+# for line in hangman_art[6]:
+#   print(line)
+
+def display_man(wrong_guesses):
+    pass
+
+def display_hint(hint):
+    pass 
+
+def display_answer(answer):
+    pass
+
+def main ():
+    answer = random.choice(words)
+    print(answer)
+
+
+if __name__ == "__main__":
+    main()
